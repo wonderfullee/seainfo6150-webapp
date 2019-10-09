@@ -4,8 +4,7 @@ import PropTypes from 'prop-types'
 const ArticleListItem = props => {
 
     return (
-
-      <li>
+     <li>
           <div className={props.title}>
               <h3>{props.title}</h3>
               {props.shortText}<br /><br />
