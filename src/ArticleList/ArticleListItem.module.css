@@ -1,0 +1,23 @@
+.container {
+    margin: 2%;
+    border: 1px solid red;
+    padding: 2%;
+    display: flex;
+    flex-direction: column;
+    background: #ffffe6
+  }
+  
+  .title {
+    color: red;
+    font-weight: bold;
+    font-size: 150%;
+  }
+  
+  .date {
+    font-weight: bold;
+  }
+
+  .box{
+    display: flex;
+    flex-wrap: wrap;
+  }
