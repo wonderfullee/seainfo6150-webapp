@@ -3,5 +3,6 @@
     flex-direction: column;
     margin: 2%;
     background: gray;
-    list-style: none
+    list-style: none;
+    border: 1px dashed;
 }
