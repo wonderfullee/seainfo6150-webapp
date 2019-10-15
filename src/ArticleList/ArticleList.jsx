@@ -12,6 +12,7 @@ const ArticleList = props => {
       <div className={styles.list}>
         {props.articles.map(article => (
           <ArticleListItem
+          url={article.image._url}
           title={article.title}
           shortText={article.shortText}
           pubDate={article.pubDate}

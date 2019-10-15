@@ -1,5 +1,8 @@
 .slugButton{
     background: red;
     margin-left: auto;
-    color: white
+    color: white;
+    border-radius: 5px;
+    font-size: 15px;
+    padding: 12px 28px;
 }
