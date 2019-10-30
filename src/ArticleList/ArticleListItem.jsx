@@ -15,17 +15,14 @@ const ArticleListItem = props => {
               title={props.title}
             />
           </div>
-          <div className={styles.textContainer}>
-            <div className={styles.title}>{props.title}</div><br />
-            <div className={styles.shortText}>{props.shortText}</div><br />
-            <div className={styles.box}><br />
-            <div className={styles.date}><time dateTime={props.pubDate}>{props.pubDate}</time></div>
-
+          <div className={styles.title}>{props.title}</div><br />
+          <div className={styles.shortText}>{props.shortText}</div><br />
+          <div className={styles.date}><time dateTime={props.pubDate}>{props.pubDate}</time></div>
+          <div className={styles.button}>
             <SlugButton 
               buttonText={props.author}
               slug={props.slug}
             />
-          </div>
           </div>
       </li>
 

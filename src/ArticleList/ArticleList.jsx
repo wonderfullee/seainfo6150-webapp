@@ -8,8 +8,8 @@ import styles from "./ArticleList.module.css"
 */
 const ArticleList = props => {
   return (
-    <ul >
-      <div className={styles.list}>
+    <ul className={styles.list}>
+      <div className={styles.itemList}>
         {props.articles.map(article => (
           <ArticleListItem
           url={article.image._url}

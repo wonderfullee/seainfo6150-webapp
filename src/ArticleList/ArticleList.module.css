@@ -1,9 +1,14 @@
 .list{
-    display: flex;
-    flex-direction: column;
+    padding: 1em;
     margin: 2%;
     background: #808080;
     list-style: none;
     border-radius: 10px;
     border: 1px dotted;
+}
+
+.itemList{
+   display: grid;
+   grid-template-columns: auto auto auto;
+   grid-gap: 20px;
 }
