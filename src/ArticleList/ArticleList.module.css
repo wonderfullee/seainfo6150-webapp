@@ -5,10 +5,60 @@
     list-style: none;
     border-radius: 10px;
     border: 1px dotted;
+    background-size: 100% 100%;
 }
 
+
 .itemList{
-   display: grid;
-   grid-template-columns: auto auto auto;
-   grid-gap: 20px;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 20px;
+ }
+
+@media screen and (max-width: 1000px) {
+  body {
+      font-size: x-large;
+  }
+  .itemList div {
+      font-size: large;
+  }
+
+    
+.itemList {
+    grid-template-columns: auto auto auto;
+  }
 }
+
+
+@media screen and (max-width: 850px) {
+  body {
+    font-size: x-large;
+  }
+  .itemList div {
+    font-size: large;
+    }
+
+          
+    .itemList {
+      grid-template-columns: auto auto;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    body {
+      font-size: xx-large;
+    }
+    .itemList div {
+      padding: 2rem;
+      font-size: x-large;
+    }
+
+
+    .itemList {
+      grid-template-columns: auto;
+    }
+}
+    
+    
+    
+      
